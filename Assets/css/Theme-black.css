@@ -1,0 +1,18 @@
+.mDark-bg {
+    background-color: #263544;
+    color: white;
+}
+
+.table thead tr, .table tfoot tr, .table thead th, .table tfoot th {
+    border-bottom: 1px;
+    background-color: #263544;
+    color: white;
+    font-weight:400;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #263544;
+    border-color: #263544;
+    box-shadow: none;
+}

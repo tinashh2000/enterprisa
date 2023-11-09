@@ -1,0 +1,5 @@
+Name: Assistant
+Label: Assistant
+Description: Assistant Package
+PrivilegesBase: 30000
+AccessVerification: Self

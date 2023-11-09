@@ -1,0 +1,125 @@
+.magicDivTemplate, .magicDivNoShow {
+    display:none;
+}
+
+.magicDivBefore, .magicDivAfter {
+    display:none;
+}
+
+.magicDiv-item {
+    cursor:pointer;
+}
+
+.magicDiv-item:hover .card {
+    background-color:#f8f8f8;
+}
+
+.magicDiv > .magicDivContainer > div {
+}
+
+div.magicDivContainer {
+    display:flex;
+}
+
+table.magicDivContainer {
+    display:table;
+}
+
+.magicDiv-toolbar {
+    display:flex;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-append .input-group-text,
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-prepend .input-group-text {
+    color: #000;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-append .input-group-text,
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-prepend .input-group-text {
+    background-color: transparent;
+    border: none;
+}
+
+.magicDiv-toolbar .magicDiv-search.open .input-group .input-group-append.magicDiv-search-close-btn,
+.magicDiv-toolbar .magicDiv-search.open .input-group .input-group-prepend.magicDiv-search-close-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-append.magicDiv-search-close-btn,
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-prepend.magicDiv-search-close-btn {
+    display: none;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-append,
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-prepend {
+    background-color: transparent !important;
+    border: none;
+}
+
+.magicDiv-toolbar .magicDiv-search.open .input-group {
+    background-color: #fff;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group {
+    border: none;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group {
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-append.magicDiv-search-close-btn,
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-prepend.magicDiv-search-close-btn {
+    display: none;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-append,
+.magicDiv-toolbar .magicDiv-search .input-group .input-group-prepend {
+    background-color: transparent;
+    border: none;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group .search-filter {
+    padding: .3rem .75rem;
+    width: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.magicDiv-toolbar .magicDiv-search.open .input-group {
+    /*margin-bottom: 0;*/
+    background-color: #fff;
+    border-radius: 20px;
+    /*border: 1px solid #d7d7d7;*/
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group {
+    margin-bottom: 0;
+}
+
+.magicDiv-toolbar .magicDiv-search .input-group .form-control {
+    border:none;
+    font-size:0.7em;
+}
+
+.magicDiv-search .form-control {
+    display:none;
+}
+
+.magicDiv-search.open .form-control {
+    display:unset;
+}
+
+div.magicDiv-pagination, tr.magicDiv-pagination td {
+    width: 100% !important;
+    padding: 1em 1em;
+    text-align: right !important;
+    font-size: smaller;
+    /*display: flex;*/
+    /*justify-content: end;*/
+}
+
+tr.magicDiv-pagination td {
+}

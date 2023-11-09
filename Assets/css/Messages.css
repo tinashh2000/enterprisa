@@ -1,0 +1,90 @@
+
+@media (max-width:767px) {
+    .displayNotificationBox .show-notification {
+        min-width:95vw;
+    }
+}
+
+@media (min-width:768px) {
+    .displayNotificationBox .show-notification {
+        min-width:30em;
+        max-width:40vw;
+    }
+}
+
+.messagesSideBar #messagesSB li {
+    padding:0.2em 0.5em;
+    cursor: pointer;
+    border-radius: 0.35rem;
+}
+
+.messagesSideBar #messagesSB li:hover {
+    background-color: rgba(0,0,0, 0.1);
+}
+
+.messagesSideBar #maximizeMessagesSideBar i:before {
+    content: "\f3df";
+}
+
+.messagesSideBar.fullscreen #maximizeMessagesSideBar i:before {
+    content: "\f3de";
+}
+
+.message-msg {
+    line-height: 1.5;
+    max-height: 1.5rem;
+    overflow: hidden;
+    font-weight: 350;
+}
+
+.message-user {
+    line-height: 1.5;
+    max-height: 1.5rem;
+    overflow: hidden;
+    font-weight: 550;
+}
+
+.message-time {
+    align-content: center;
+    display: grid;
+}
+
+#notificationsMenu li, #messagesSB li {
+    border-bottom: 1px solid #eee;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#notificationsMenu li:last-child, #messagesSB li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.messagesSideBar {
+    margin: 0 !important;
+    padding:0 !important;
+}
+
+.messagesSideBar > .row {
+    /*background-color: #0d6efd;*/
+    border: none !important;
+    margin: 0 !important;
+    padding:0 !important;
+}
+
+.messagesSideBar > .row.title-bar * {
+    /*color: white !important;*/
+}
+
+.messagesSideBar > .row.title-bar .title-bar-buttons {
+    height: 3em !important;
+    cursor: pointer;
+}
+
+.messagesSideBar > .row.title-bar .title-bar-buttons a {
+    padding:0.3em;
+}
+
+.messagesSideBar > .row.title-bar .title-bar-buttons a:hover {
+    background-color: rgba(255,255,255, 0.2);
+}

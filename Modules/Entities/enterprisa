@@ -1,0 +1,6 @@
+Name: Entities
+Label: Entities
+Description: Entities Package
+PrivilegesBase: 90000
+AccessVerification: Auto
+Dependencies:

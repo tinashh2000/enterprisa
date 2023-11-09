@@ -1,0 +1,13 @@
+.loader-bg {
+    background: #fff !important;
+    text-align: center;
+}
+
+.loading-screen_progress-status {
+    content: "My content" !important;
+}
+
+
+.loading-screen_progress-status:before {
+    content: "Copyright © Harare International Univerisity" !important;
+}

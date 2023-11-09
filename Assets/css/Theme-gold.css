@@ -1,0 +1,21 @@
+.mDark-bg {
+    background: rgb(130,86,33);
+    background: linear-gradient(180deg, rgba(130,86,33,1) 0%, rgba(130,86,33,1) 50%, rgba(130,86,33,1) 100%);
+    color: white;
+}
+
+.table thead tr, .table tfoot tr, .table thead th, .table tfoot th {
+    border-bottom: 1px;
+    background: linear-gradient(180deg, rgba(130,86,33,1) 0%, rgba(130,86,33,1) 50%, rgba(130,86,33,1) 100%);
+    background: rgb(130,86,33);
+    color: #ffffff !important;
+    font-weight:400;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background: rgb(130, 86, 33);
+    background: linear-gradient(180deg, rgba(130,86,33,1) 0%, rgba(130,86,33,1) 50%, rgba(130,86,33,1) 100%);
+    border-color: #BF912D;
+    box-shadow: none;
+}

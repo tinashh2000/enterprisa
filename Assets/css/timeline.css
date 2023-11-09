@@ -1,0 +1,168 @@
+.mt-timeline {
+    padding:0 !important;
+    margin:0 !important;
+    min-width:100%;
+    max-width:100vw;
+}
+
+.mt-timeline > div{
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.mt-timeline > div .timeline-event:nth-child(2n) {
+    background-color: #fafafa;
+}
+
+/*, .mt-timeline > .events-list .timeline-event > .item */
+.mt-timeline > .events-list .timeline-header > .timeline-time{
+    border-right:2px solid #ddd;
+    height: 30px !important;
+    min-height:30px !important;
+    max-height:30px !important;
+    display:inline-block;
+    width:150px !important;
+    min-width:150px !important;
+    max-width:150px !important;
+
+    text-align: center;
+    background-size: 14em;
+    width: 7em;
+    min-width: 7em;
+
+    margin:0;
+    padding:0;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.mt-timeline > div .timeline-header {
+    height: 30px !important;
+    min-height: 30px !important;
+    max-height: 30px !important;
+    padding:0 !important;
+    margin:0 !important;
+    border-bottom:1px solid #d0d;
+    display: flex !important;
+    align-content: center !important;
+}
+
+.mt-timeline > div .timeline-resource, .mt-timeline > div .timeline-header {
+    background-color:#f4f4ff;
+    color: black;
+}
+
+.mt-timeline > div .timeline-resource {
+    border-bottom:1px solid #e8e8ff;
+    height: 30px !important;
+    min-height: 30px !important;
+    max-height: 30px !important;
+    overflow: hidden;
+    display:flex !important;
+    align-content: center !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-timeline > .events-list .timeline-event {
+    background-image: linear-gradient(90deg,
+
+
+    rgba(0,0,0,0) 24.5%,
+    #ddd 24.5%, #ddd 25%,
+    rgba(0,0,0,0) 25%,
+
+
+
+    rgba(0,0,0,0) 49.5%,
+    #ddd 49.5%, #ddd 50%,
+    rgba(0,0,0,0) 50%,
+
+
+    rgba(0,0,0,0) 74.5%,
+    #ddd 74.5%, #ddd 75%,
+    rgba(0,0,0,0) 75%,
+
+    rgba(0,0,0,0) 99.25%,
+    #999 99.5%, #999 100%,
+    rgba(0,0,0,0) 100%);
+    background-size: 150px !important;
+    /*min-width:2400px;*/
+    /*max-width:2400px;*/
+    position:relative;
+}
+
+.mt-timeline > div  .timeline-resource > span {
+    font-size:0.8em;
+    border: none;
+    display:flex !important;
+    align-content: center !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt-timeline > div  .timeline-resource > span, .mt-timeline > div  .timeline-header > .timeline-time, .mt-timeline > div  .timeline-event > .item {
+    font-size:0.75em;
+    border: none;
+    padding:0;
+    margin:0;
+}
+
+.mt-timeline .timeline-event .item {
+    min-height:3em !important;
+    height:3em !important;
+    /*width:100%;*/
+    /*min-width:100%;*/
+    /*max-width:100%;*/
+    padding:0;
+}
+
+.mt-timeline .events-list {
+    min-width:calc(100% - 120px);
+    max-width:calc(100% - 120px);
+    border: 1px solid #aaa;
+    overflow: scroll;
+}
+
+.mt-timeline div.resources {
+    border: 1px solid #aaa;
+    width:100px;
+    min-width:100px;
+    max-width:100px;
+    background-color: #fff;
+}
+
+div.timeline-header {
+    background-color: #fff;
+}
+
+div.timeline-event {
+    background-color: #fff;
+    border-bottom:1px solid #e8e8ff;
+    height: 30px !important;
+    min-height: 30px !important;
+    max-height: 30px !important;
+    overflow: hidden;
+}
+
+.mt-timeline .timeline-event .event-item {
+    background-color: #ec6a5e;
+    transition: background-color .2s;
+    border:1px solid rgba(0,0,0,0.2);
+    /*display:inline-block;*/
+    position: absolute;
+    white-space: normal;
+    overflow: hidden;
+    color: #fff;
+    transform-style: preserve-3d;
+    border-radius: 0.25em;
+    padding-left:0.35em;
+    cursor: pointer;
+    height:28px;
+    margin-top:0.125em;
+    margin-bottom:0.125em;
+    line-height:1em;
+}

@@ -1,0 +1,6 @@
+Name: Currencies
+Label: Currencies
+Description: Currencies Package
+PrivilegesBase: 50000
+AccessVerification: Auto
+Dependencies:

@@ -1,0 +1,6 @@
+Name: Admin
+Label: Admin
+Description: Administrator Panel
+PrivilegesBase: 20000
+AccessVerification: Auto
+Dependencies:

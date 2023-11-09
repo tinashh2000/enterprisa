@@ -1,0 +1,28 @@
+.mModalTitle {
+    background-color: #eee;
+}
+
+.table thead tr, .table tfoot tr, .table thead th, .table tfoot th {
+    border-bottom: 1px;
+    background-color: #F8F8F8;
+    color: #000;
+    font-weight:600 !important;
+}
+
+.invoiceTable thead tr, .invoiceTable tfoot tr, .invoiceTable thead th, .invoiceTable tfoot th {
+    background-color: #263544;
+    color: white;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #263544;
+    border-color: #263544;
+    box-shadow: none;
+}
+
+.mModalLogo {
+    margin: 0 !important;;
+    border-bottom: 1px solid #fdfdfd;
+    justify-content: end;
+}

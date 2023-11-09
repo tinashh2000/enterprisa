@@ -1,0 +1,306 @@
+.mt-container {
+}
+
+.mt-main-container {
+    display: flex;
+}
+
+.mt-main-contents {
+    display: inline-block;
+    min-height: calc(100vh - 3.8rem) !important;
+    max-height: calc(100vh - 3.8rem) !important;
+    width: 100%;
+    overflow: auto;
+}
+
+table.table.table-bordered {
+    /*border: 1px solid rgba(0,0,0,.125) !important;*/
+    border: 1px solid #000 !important;
+    border-radius: 0.25rem !important;
+    /*box-shadow: 0 10px 30px -8px rgb(0 0 0 / 24%) !important;*/
+}
+
+.table.table-bordered tbody, .table.table-bordered td, .table.table-bordered tfoot, .table.table-bordered th, .table.table-bordered thead, .table.table-bordered tr {
+    border-radius: 0.25rem !important;
+    border-color: #fafafa !important;
+    border-width: 1px !important;
+}
+
+.mt-main-body {
+    position: relative;
+    display: flex;
+    align-content: stretch!important;
+    min-height: calc(100vh - 11.5rem) !important;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    /*box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.24);*/
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navbar {
+    height: 3.5rem;
+}
+
+.footer {
+    min-height: 2rem !important;
+    padding: 1rem !important;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.24);;
+    box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.24);;
+    border: none;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+
+.mt-main-body > div.row:not(.bg-none) {
+    padding: 1em;
+    /*min-height: calc(100vh - 15rem);*/
+    /*max-height: calc(100vh - 15rem);*/
+
+}
+
+.mt-main-body > div.row:first-child:not(.no-stretch) {
+    /*min-height: calc(100vh - 10em);*/
+}
+
+.mt-available-height {
+    min-height: calc(100vh - 10em);
+}
+
+.mt-page-header {
+    background-color : #fff;
+}
+
+.mt-user-image-container {
+    display: inline;
+    margin-right: 1em;
+}
+
+.mt-user-image-container {
+    display: inline-block;
+    min-width: 45px !important;
+    max-width: 45px !important;
+    min-height: 45px !important;
+    max-height: 45px !important;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.mt-user-image-container img {
+    width: 45px;
+    min-height: 100% !important;
+}
+
+#notificationsMenu img, #messagesSB img {
+    /*width: 40px;*/
+    margin-right: 10px;
+}
+
+.notification-time {
+    max-width: 4em;
+    min-width: 4em;
+}
+
+.notification-msg, .notification-user {
+    font-size: 0.8rem;
+    color: rgba(0,0,0, 0.7);
+}
+
+#notificationsMenu li, #messagesSB li {
+    list-style: none;
+}
+
+#notificationsMenu a, #messagesSB a {
+    text-decoration:none;
+}
+
+.card-header, .card-footer {
+    background-color: unset !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.input-group-text {
+    background-color: unset !important;
+    border: none !important;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 10px 30px -8px rgba(0, 0, 0, 0.24);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.dropdown-menu::before {
+    border-left: 1px solid rgba(0,0,0,.15);
+    border-top: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+    width:12px;
+    height:12px;
+    color: transparent;
+    content: "a" !important;
+    display: inline-block  !important;
+    position: absolute !important;
+    right: 12px !important;
+    top: -6px !important;
+    transform: rotate(45deg);
+}
+
+@media (min-width: 1300px) {
+    #messagesSideBar.messagesSideBar{
+        max-width: 1280px !important;
+    }
+}
+
+@media (max-width: 1279px) {
+    #messagesSideBar.messagesSideBar{
+        max-width:calc(100vw - 20px);
+    }
+}
+
+#messagesSideBar.messagesSideBar{
+    position: fixed !important;
+    right:-100%;
+    width:calc(100% - 20px);
+    left: unset !important;
+    height: calc(100vh - 60px);
+    z-index: 1000;
+    transition: all 250ms linear;
+    border-radius: 0.35rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+    padding:0.4rem;
+}
+
+#messagesSideBar.messagesSideBar.show{
+    right: 0px;
+}
+
+
+@media (min-width: 576px) {
+    #messagesSideBar.messagesSideBar {
+        right: -500px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    #messagesSideBar.messagesSideBar {
+        right: -500px;
+        width: 500px;
+    }
+}
+
+@media (min-width: 992px) {
+    #messagesSideBar.messagesSideBar {
+        right: -650px;
+        width: 650px;
+    }
+}
+
+.mt-tab-container {
+    max-height: calc(100vh - 120px);
+    overflow-y: scroll;
+}
+/*#messagesSideBar.messagesSideBar.show {*/
+/*    left: 0px;*/
+/*}*/
+
+
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid deepskyblue;
+    border-radius: 0;
+}
+
+/* Bootstrap-5 compatibility */
+/*.select2-dropdown,.select2-dropdown *, .select2-search, .select2-search--dropdown {*/
+/*    z-index: 1061 !important;*/
+/*}*/
+
+/*.select2-search__field {*/
+/*    z-index: 1062 !important;*/
+/*}*/
+
+
+.card-red {
+    background-color: var(--bs-red) !important;
+    color:white;
+}
+
+.card-yellow {
+    background-color: var(--bs-yellow) !important;
+    color:white;
+}
+
+.card-green {
+    background-color: var(--bs-green) !important;
+    color:white;
+}
+
+.card-blue {
+    background-color: var(--bs-blue) !important;
+    color:white;
+}
+
+.card .card-block {
+    padding: 1.25rem;
+}
+
+.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td {
+    border-color: #ddd;
+}
+
+.mt-collapse-toggle::after {
+    position: relative;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900;
+    content: "\f0d7";
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+    transform: rotate(60deg);
+}
+
+.mt-collapse-toggle[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.dropdown-menu {
+    font-size: 0.8rem !important;
+}
+
+
+.btn {
+    font-size: 0.8rem !important;
+}
+
+.table>:not(:first-child) {
+    border-top: 1px solid #eee !important;
+}

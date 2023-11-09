@@ -1,0 +1,10 @@
+<?php
+namespace Api;
+const parentPackage="Enterprisa Pro";
+const parentPath="tariads";
+const parentCapabilities=1;
+const parentUiCapabilities=1;
+const modulePrivilegesBase=0;
+const moduleBasePath="Modules";
+const dbPrefix = "";
+const AppData="087d10f299dfc10fe95f5c6446ff226024cddcc8fc7154badd901655563c8aa96fbc828693e90bf0137f7868c9b8603692fd9ca82acc1a0b942b2623bb544c9a6b2d19c137838a09b54fa59ba6f9ba22a8828623bf33f4a03e916d5ca94d4483468d5c82be6d3e1df7b09d448a87651d0e3b1c7d68f373394a81d96a27004da44abd4d089d2f73d716e11ab337e0dcb8568741c8d617551bc6f2307806f436b75385347cb353779a8e83dcd7a7914363fda976b01237a677ef0d10cf83b5524d528083586a9793e4d08753e8bb5ce18843575e0a";
